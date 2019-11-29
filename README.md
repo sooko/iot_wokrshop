@@ -64,14 +64,21 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 e
 ampy -p COM8 put blink_led.py
 ```
 
-- open serial monitor and type
+- open serial monitor baudrate 115200 and type
 
 ```bash
 import blink_led.py
 ```
 
 ## test mqtt with paho-mqtt
+## test mqtt with paho-mqtt
+- install 
 
+```bash
+pip install paho-mqtt
+```
+
+-  run
 ```bash
 import paho.mqtt.publish as publish
 
