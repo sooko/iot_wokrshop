@@ -62,7 +62,7 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 e
 ## example run a progam 
 
 ```bash
-ampy -p COM8 put blink.py
+ampy -p COM8 put blink_led.py
 ```
 
 - open serial monitor and type
