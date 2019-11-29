@@ -69,3 +69,13 @@ ampy -p COM8 put blink_led.py
 ```bash
 import blink_led.py
 ```
+
+## test mqtt with paho-mqtt
+
+```bash
+import paho.mqtt.publish as publish
+
+```
+```bash
+publish.single("ruang_tamu", "led_on", hostname="192.168.43.165")
+```

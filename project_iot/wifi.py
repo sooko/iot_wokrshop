@@ -4,8 +4,6 @@ from alldevice import *
 
 print("mengubungkan ......")
 class Wifi(object):
-    indikator=Pin(2,Pin.OUT)
-    indikator.value(1)
     ssid = "HANS"
     password = "sooko1989"
     station = network.WLAN(network.STA_IF)
@@ -21,13 +19,11 @@ class Wifi(object):
         self.station.connect(self.ssid, self.password)
         while self.station.isconnected() == False:
             self.state="mencoba terhubung ....."
-            self.indikator.value(1)
             led_red.value(1)
             led_green.value(0)
             pass
         print("sukses terhubung")
         self.state="terhubung"
         print(self.station.ifconfig())
-        self.indikator.value(0)
         led_red.value(0)
         

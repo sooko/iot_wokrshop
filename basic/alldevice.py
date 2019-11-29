@@ -6,5 +6,5 @@ led_green=Pin(5,Pin.OUT)
 led_blue=Pin(15,Pin.OUT)
 ldr=ADC(0)
 button=Pin(0, Pin.IN) 
-
+led_board=Pin(2,Pin.OUT)
 print("alldevice ready")
