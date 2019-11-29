@@ -37,8 +37,6 @@ sudo apt-get install gtkterm
 sudo apt-get install screen
 ```
 
-
-
 ## install tools for micropython with pip
 
 - install esptool
@@ -61,4 +59,14 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 e
 ```
 
 
+## example run a progam 
 
+```bash
+ampy -p COM8 put blink.py
+```
+
+- open serial monitor and type
+
+```bash
+import blink_led.py
+```
