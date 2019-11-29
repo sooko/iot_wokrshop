@@ -15,6 +15,19 @@
 - install driver CH34x_Install_Windows_v3_4.EXE
 
 ## for linux
+
+- install virtual environment
+```bash
+python3 -m pip install --upgrade --user pip setuptools 
+```
+```bash
+python3 -m virtualenv ~/iot_workshop
+```
+```bash
+source ~/iot_workshop/bin/activate
+```
+
+
 - install gtkterm or screen for serial monitor
 
 ```bash

@@ -1,7 +1,0 @@
-esptool
-adafruit-ampy
-paho-mqtt
-flask
-
-#kivy
-
