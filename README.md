@@ -1,35 +1,22 @@
-FOR LINUX
-
-install virtual environment
-$ python3 -m pip install --upgrade --user pip setuptools 
-$ python3 -m virtualenv ~/iot_workshop
-$ source ~/iot_workshop/bin/activate
 
 
-install esptool
-$ pip install esptool
 
+# Instalasi
+
+Foobar is a Python library for dealing with word pluralization.
+
+## for windows
+-install VSCodeUserSetup-x64-1.40.0.exe
+
+-install driver CH34x_Install_Windows_v3_4.EXE
+
+
+- install esptool
+```bash
+pip esptool
+```
 install adafruit-ampy
-$ pip install adafruit-ampy
-
-
-set permition
-$ sudo usermode -a -G dialout <user>
-$ sudo apt-get remove modemmanager
-$ sudo reboot
-
-
-
-FOR WINDOWS
-install driver ch340
-install esptool
-$ pip install esptool
-install adafruit-ampy
-$ pip install adafruit-ampy
-
-
-download firmware micropython for es8266
-- masuk ke directory firmware
-$  esptool.py --port /dev/ttyUSB0 erase_flash
-$  esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-20190529-v1.11.bin
+```bash
+pip esptool
+```
 
