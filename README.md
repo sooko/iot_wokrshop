@@ -23,11 +23,10 @@ python3 -m pip install --upgrade --user pip setuptools
 ```bash
 python3 -m virtualenv ~/venv
 ```
+
 ```bash
 source ~/venv/bin/activate
 ```
-
-
 - install gtkterm or screen for serial monitor
 
 ```bash
@@ -59,7 +58,7 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 e
 ```
 
 
-## example run a progam 
+## example put and run a progam 
 
 ```bash
 ampy -p COM8 put blink_led.py
