@@ -1,4 +1,4 @@
-from alldevice import *
+from alldevice import led_red,led_blue,led_green
 import time
 
 while True:

@@ -21,10 +21,10 @@
 python3 -m pip install --upgrade --user pip setuptools 
 ```
 ```bash
-python3 -m virtualenv ~/iot_workshop
+python3 -m virtualenv ~/venv
 ```
 ```bash
-source ~/iot_workshop/bin/activate
+source ~/venv/bin/activate
 ```
 
 

@@ -1,4 +1,6 @@
-from alldevice import *
+# mempengaruhi kecerahan lampu dengan sensor LDR 
+
+from alldevice import *  
 import time
 brigness_led=PWM(led_blue)
 
