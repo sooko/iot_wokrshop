@@ -3,16 +3,16 @@
 <!-- install tools and burn micropython firmware to esp8266 board -->
 
 ## for windows
--python-3.7.2-amd64.exe
+- python-3.7.2-amd64.exe
 
 
--install putty-0.73-installer.msi
+- install putty-0.73-installer.msi
 
 
--install VSCodeUserSetup-x64-1.40.0.exe
+- install VSCodeUserSetup-x64-1.40.0.exe
 
 
--install driver CH34x_Install_Windows_v3_4.EXE
+- install driver CH34x_Install_Windows_v3_4.EXE
 
 ## for linux
 - install gtkterm or screen for serial monitor
